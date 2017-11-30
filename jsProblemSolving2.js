@@ -1,6 +1,7 @@
-"use script";
+"use script";  
 function capitolStuff(){
 	let words = prompt("enter phrase:");
+	words = words.toLowerCase();
 	let aWords = words.split(" ");
 	let capWords = [];
 	for(let i = 0; i < aWords.length; i++) {
